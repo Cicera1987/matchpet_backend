@@ -1,6 +1,6 @@
 # matchpet_backend
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
 ### Descrição
 Projeto desenvolvido usando  Sistema Especialista para ajudar na escola de animal de estimação
 
@@ -25,12 +25,12 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e serviços ins
   npm install -g typescript
   ```
 
- ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+ ____________________________________________________________________________________________________________________
 
 # Exemplos de como criar seu conteiner Docker
 
 
-## Criando um Container
+## Criando um Container (Exemplo 01)
 
 - [Docker](https://www.docker.com/) - Uma plataforma para desenvolvimento, envio e execução de aplicativos em contêineres. Certifique-se de ter o Docker instalado e em execução na sua máquina.
 - Dentro do Visual Studio Code, você pode abrir um terminal integrado e executar o comando `docker-compose up` diretamente no diretório do projeto para criar os contêineres com base no arquivo `docker-compose.yml`. Aqui estão as etapas:
@@ -56,10 +56,10 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e serviços ins
    Isso iniciará os contêineres com base nas configurações do arquivo `docker-compose.yml` no diretório do seu projeto.
 
 Certifique-se de que o Docker Desktop esteja em execução na sua máquina antes de executar o comando `docker-compose up`. Você também deve verificar se o arquivo `docker-compose.yml` está configurado corretamente para atender às necessidades do seu projeto, incluindo variáveis de ambiente, volumes, portas e outras configurações relevantes.
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
 
 
-## Criando um Container
+## Criando um Container (Exemplo 02)
 
 ## Sistema de gerenciamento de banco de dados relacional 
 
@@ -70,7 +70,7 @@ ________________________________________________________________________________
 
 Certifique-se de que todas essas ferramentas e serviços estejam devidamente configurados em sua máquina antes de prosseguir com a configuração e instalação do projeto.
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
 
 ## A configuração do projeto pode ser feita da seguinte forma:
 
@@ -132,7 +132,7 @@ Aqui está um exemplo de como o conteúdo do arquivo `.env` pode ser configurado
 
 ```env
 DATABASE_URL=postgresql://postgres:mysecretpassword@localhost:5432/nome_do_banco_de_dados
-PORT= `exemplo:3333`
+PORT= `Valor` -  "Exemplo: PORT:3333"
 ```
 
 Certifique-se de substituir `nome_do_banco_de_dados` pelo nome do banco de dados que você deseja usar. (matchpet_backend)
@@ -140,7 +140,7 @@ Certifique-se de substituir `nome_do_banco_de_dados` pelo nome do banco de dados
 Após configurar o arquivo `.env`, você pode continuar com a instalação e execução do projeto conforme as etapas mencionadas no README.
 ```
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
 
 ## Uso do Postman para a rota `NewRule`
 
@@ -186,14 +186,16 @@ O Postman enviará a solicitação para o seu servidor. Certifique-se de que o s
 
 Você pode seguir um processo semelhante para testar outras rotas, como `List` e `UpdateRule`, e adaptar os métodos e URLs conforme necessário. O processo no Insomnia é bastante semelhante, permitindo que você crie e teste solicitações da mesma forma.
 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-#Autor
+_____________________________________________________________________________________________________________________
+
+# Autor
 
 ### Emanuel Leffa projeto original Backend (ExpertSysApi) (https://github.com/EmanoelMittmann/ExpertSysApi)
 ### Cicera Ribeiro projeto Frontend (https://github.com/Cicera1987/matchpet.git)
 
 
-Agradecimentos
-(Obrigada por chegar até aqui!)
+# Agradecimentos
+
+Obrigada por chegar até aqui ;)!
 
 

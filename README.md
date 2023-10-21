@@ -40,7 +40,7 @@ Certifique-se de que todas essas ferramentas e serviços estejam devidamente con
 1. Clone o projeto do repositório:
 
    ```bash
-   git clone [https://seu-repositorio.git](https://github.com/Cicera1987/matchpet_backend.git)
+   git clone https://github.com/Cicera1987/matchpet_backend.git
    ```
 
 2. Navegue para o diretório do projeto:

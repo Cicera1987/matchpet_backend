@@ -167,8 +167,8 @@ Você pode seguir um processo semelhante para testar outras rotas, como `List` e
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 #Autor
 
-### Emanuel Leffa Backend (https://github.com/EmanoelMittmann/ExpertSysApi)
-### Cicera Ribeiro no frontend (https://github.com/Cicera1987/matchpet.git)
+### Emanuel Leffa projeto original Backend (ExpertSysApi) (https://github.com/EmanoelMittmann/ExpertSysApi)
+### Cicera Ribeiro projeto Frontend (https://github.com/Cicera1987/matchpet.git)
 
 
 Agradecimentos

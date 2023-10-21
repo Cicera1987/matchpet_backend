@@ -140,9 +140,9 @@ Certifique-se de substituir `nome_do_banco_de_dados` pelo nome do banco de dados
 Após configurar o arquivo `.env`, você pode continuar com a instalação e execução do projeto conforme as etapas mencionadas no README.
 ```
 
-_____________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________
 
-## Uso do Postman para a rota `NewRule`
+## Uso do Postman para a rota `NewRule`✔
 
 1. Abra o Postman.
 
@@ -186,7 +186,7 @@ O Postman enviará a solicitação para o seu servidor. Certifique-se de que o s
 
 Você pode seguir um processo semelhante para testar outras rotas, como `List` e `UpdateRule`, e adaptar os métodos e URLs conforme necessário. O processo no Insomnia é bastante semelhante, permitindo que você crie e teste solicitações da mesma forma.
 
-_____________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________
 
 # Autor
 
@@ -196,6 +196,6 @@ ________________________________________________________________________________
 
 # Agradecimentos
 
-Obrigada por chegar até aqui ;)!
+Obrigada por chegar até aqui 😉!
 
 

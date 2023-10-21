@@ -27,7 +27,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e serviços ins
 
  ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
 
-# Expmplos de como criar seu conteiner Docker
+# Exemplos de como criar seu conteiner Docker
 
 
 ## Criando um Container

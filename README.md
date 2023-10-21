@@ -190,8 +190,8 @@ ________________________________________________________________________________
 
 # Autor
 
-### Emanuel Leffa projeto original Backend (ExpertSysApi) (https://github.com/EmanoelMittmann/ExpertSysApi)
-### Cicera Ribeiro projeto Frontend (https://github.com/Cicera1987/matchpet.git)
+### Emanuel Leffa - Projeto original Backend (ExpertSysApi) (https://github.com/EmanoelMittmann/ExpertSysApi)
+### Cicera Ribeiro - Projeto original Frontend (https://github.com/Cicera1987/matchpet.git)
 
 
 # Agradecimentos

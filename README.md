@@ -1,47 +1,40 @@
-# matchpet_backend
+```markdown
+# MatchPet Backend
 
-_____________________________________________________________________________________________________________________
-### Descrição
-Projeto desenvolvido usando  Sistema Especialista para ajudar na escola de animal de estimação
+## Descrição
+Projeto desenvolvido usando Sistema Especialista para ajudar na adoção de animais de estimação.
 
-Você pode listar os pré-requisitos necessários para rodar o projeto, incluindo as versões específicas dos softwares e ferramentas da seguinte forma:
-
-### Pré-requisitos
-
+## Pré-requisitos
 Antes de começar, certifique-se de ter as seguintes ferramentas e serviços instalados e configurados em sua máquina:
 
-- [Node.js](https://nodejs.org/) (v16.16.0 ou versão posterior) - Você pode verificar a versão do Node.js instalada com o seguinte comando:
+- **Node.js** (v16.16.0 ou versão posterior) - Você pode verificar a versão do Node.js instalada com o seguinte comando:
   ```bash
   node --version
   ```
 
-- [Prisma](https://www.prisma.io/) - Um ORM (Object-Relational Mapping) para interagir com o banco de dados. Você pode instalá-lo globalmente com o seguinte comando:
+- **Prisma** - Um ORM (Object-Relational Mapping) para interagir com o banco de dados. Você pode instalá-lo globalmente com o seguinte comando:
   ```bash
   npm install -g prisma
   ```
 
-- [TypeScript](https://www.typescriptlang.org/) - Uma linguagem de programação que estende o JavaScript. Você pode instalar o TypeScript globalmente com o seguinte comando:
+- **TypeScript** - Uma linguagem de programação que estende o JavaScript. Você pode instalar o TypeScript globalmente com o seguinte comando:
   ```bash
   npm install -g typescript
   ```
+_____________________________________________________________________________________________________________________
+## Exemplos de como criar seu conteiner Docker
 
- ____________________________________________________________________________________________________________________
+### Criando um Container (Exemplo 01)
 
-# Exemplos de como criar seu conteiner Docker
-
-
-## Criando um Container (Exemplo 01)
-
-- [Docker](https://www.docker.com/) - Uma plataforma para desenvolvimento, envio e execução de aplicativos em contêineres. Certifique-se de ter o Docker instalado e em execução na sua máquina.
-- Dentro do Visual Studio Code, você pode abrir um terminal integrado e executar o comando `docker-compose up` diretamente no diretório do projeto para criar os contêineres com base no arquivo `docker-compose.yml`. Aqui estão as etapas:
-
+Docker - Uma plataforma para desenvolvimento, envio e execução de aplicativos em contêineres. Certifique-se de ter o Docker instalado e em execução na sua máquina.
+Dentro do Visual Studio Code, você pode abrir um terminal integrado e executar o comando `docker-compose up` diretamente no diretório do projeto para criar os contêineres com base no arquivo docker-compose.yml. Aqui estão as etapas:
 1. Abra o Visual Studio Code.
 
-2. Abra o projeto que contém o arquivo `docker-compose.yml`.
+2. Abra o projeto que contém o arquivo docker-compose.yml.
 
-3. No menu superior, vá para "Terminal" e escolha "Novo Terminal" ou use o atalho `Ctrl+` (ou `Cmd+` no macOS).
+3. No menu superior, vá para "Terminal" e escolha "Novo Terminal" ou use o atalho Ctrl+ (ou Cmd+ no macOS).
 
-4. No terminal integrado, navegue até o diretório do projeto onde o arquivo `docker-compose.yml` está localizado. Você pode usar o comando `cd` para fazer isso. Por exemplo:
+4. No terminal integrado, navegue até o diretório do projeto onde o arquivo docker-compose.yml está localizado. Você pode usar o comando `cd` para fazer isso. Por exemplo:
 
    ```bash
    cd /caminho/para/o/diretorio/do/projeto
@@ -53,26 +46,21 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e serviços ins
    docker-compose up
    ```
 
-   Isso iniciará os contêineres com base nas configurações do arquivo `docker-compose.yml` no diretório do seu projeto.
+Isso iniciará os contêineres com base nas configurações do arquivo docker-compose.yml no diretório do seu projeto. Certifique-se de que o Docker Desktop esteja em execução na sua máquina antes de executar o comando `docker-compose up`. Você também deve verificar se o arquivo docker-compose.yml está configurado corretamente para atender às necessidades do seu projeto, incluindo variáveis de ambiente, volumes, portas e outras configurações relevantes.
 
-Certifique-se de que o Docker Desktop esteja em execução na sua máquina antes de executar o comando `docker-compose up`. Você também deve verificar se o arquivo `docker-compose.yml` está configurado corretamente para atender às necessidades do seu projeto, incluindo variáveis de ambiente, volumes, portas e outras configurações relevantes.
-_____________________________________________________________________________________________________________________
+### Criando um Container (Exemplo 02)
 
+#### Sistema de gerenciamento de banco de dados relacional
 
-## Criando um Container (Exemplo 02)
-
-## Sistema de gerenciamento de banco de dados relacional 
-
-- [PostgreSQL](https://www.postgresql.org/) - Um sistema de gerenciamento de banco de dados relacional. Você pode usar o Docker para executar uma instância do PostgreSQL em um contêiner. Por exemplo:
-  ```bash
-  docker run --name my-postgres-container -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
-  ```
+- **PostgreSQL** - Um sistema de gerenciamento de banco de dados relacional. Você pode usar o Docker para executar uma instância do PostgreSQL em um contêiner. Por exemplo:
+   ```bash
+   docker run --name my-postgres-container -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+   ```
 
 Certifique-se de que todas essas ferramentas e serviços estejam devidamente configurados em sua máquina antes de prosseguir com a configuração e instalação do projeto.
 
-_____________________________________________________________________________________________________________________
-
-## A configuração do projeto pode ser feita da seguinte forma:
+## Configuração do Projeto
+Siga estas etapas para configurar e instalar o projeto:
 
 1. Clone o projeto do repositório:
 
@@ -86,7 +74,7 @@ ________________________________________________________________________________
    cd nome-do-projeto
    ```
 
-3. Instale as dependências do projeto usando o `npm`:
+3. Instale as dependências do projeto usando o npm:
 
    ```bash
    npm install
@@ -107,7 +95,7 @@ ________________________________________________________________________________
    npx prisma migrate dev
    ```
 
-   Isso irá criar as tabelas no banco de dados com base nas definições do Prisma em seu arquivo `schema.prisma`.
+Isso irá criar as tabelas no banco de dados com base nas definições do Prisma em seu arquivo `schema.prisma`.
 
 6. Após a configuração e migração do Prisma, você pode iniciar o servidor do projeto:
 
@@ -115,12 +103,10 @@ ________________________________________________________________________________
    npm start
    ```
 
-Isso deve configurar e iniciar o projeto, permitindo que você comece a usar o sistema especialista de adoção de animais.
+Isso deve configurar e iniciar o projeto, permitindo que você comece a usar o sistema especialista de adoção de animais. Certifique-se de que todas as etapas anteriores foram concluídas com sucesso e de que todas as configurações, como as variáveis de ambiente, estão correte.
 
-Certifique-se de que todas as etapas anteriores foram concluídas com sucesso e de que todas as configurações, como as variáveis de ambiente, estão corretamente definidas para o ambiente em que você está trabalhando.
 
-matchpet_backend
-
+_____________________________________________________________________________________________________________________
 ## Configuração do Arquivo .env
 
 Antes de executar o projeto, é importante configurar o arquivo `.env` com as variáveis de ambiente necessárias. Certifique-se de que o arquivo `.env` esteja presente no diretório raiz do projeto e inclua as seguintes configurações:

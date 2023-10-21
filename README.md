@@ -1,6 +1,6 @@
 # matchpet_backend
 
-
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Descrição
 Projeto desenvolvido usando  Sistema Especialista para ajudar na escola de animal de estimação
 
@@ -25,7 +25,43 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e serviços ins
   npm install -g typescript
   ```
 
+ ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
+
+# Expmplos de como criar seu conteiner Docker
+
+
+## Criando um Container
+
 - [Docker](https://www.docker.com/) - Uma plataforma para desenvolvimento, envio e execução de aplicativos em contêineres. Certifique-se de ter o Docker instalado e em execução na sua máquina.
+- Dentro do Visual Studio Code, você pode abrir um terminal integrado e executar o comando `docker-compose up` diretamente no diretório do projeto para criar os contêineres com base no arquivo `docker-compose.yml`. Aqui estão as etapas:
+
+1. Abra o Visual Studio Code.
+
+2. Abra o projeto que contém o arquivo `docker-compose.yml`.
+
+3. No menu superior, vá para "Terminal" e escolha "Novo Terminal" ou use o atalho `Ctrl+` (ou `Cmd+` no macOS).
+
+4. No terminal integrado, navegue até o diretório do projeto onde o arquivo `docker-compose.yml` está localizado. Você pode usar o comando `cd` para fazer isso. Por exemplo:
+
+   ```bash
+   cd /caminho/para/o/diretorio/do/projeto
+   ```
+
+5. Após navegar até o diretório do projeto, você pode executar o comando `docker-compose up` para criar os contêineres:
+
+   ```bash
+   docker-compose up
+   ```
+
+   Isso iniciará os contêineres com base nas configurações do arquivo `docker-compose.yml` no diretório do seu projeto.
+
+Certifique-se de que o Docker Desktop esteja em execução na sua máquina antes de executar o comando `docker-compose up`. Você também deve verificar se o arquivo `docker-compose.yml` está configurado corretamente para atender às necessidades do seu projeto, incluindo variáveis de ambiente, volumes, portas e outras configurações relevantes.
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+## Criando um conteiner
+
+## Sistema de gerenciamento de banco de dados relacional 
 
 - [PostgreSQL](https://www.postgresql.org/) - Um sistema de gerenciamento de banco de dados relacional. Você pode usar o Docker para executar uma instância do PostgreSQL em um contêiner. Por exemplo:
   ```bash
@@ -34,8 +70,9 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e serviços ins
 
 Certifique-se de que todas essas ferramentas e serviços estejam devidamente configurados em sua máquina antes de prosseguir com a configuração e instalação do projeto.
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-### A configuração do projeto pode ser feita da seguinte forma:
+## A configuração do projeto pode ser feita da seguinte forma:
 
 1. Clone o projeto do repositório:
 
@@ -82,8 +119,8 @@ Isso deve configurar e iniciar o projeto, permitindo que você comece a usar o s
 
 Certifique-se de que todas as etapas anteriores foram concluídas com sucesso e de que todas as configurações, como as variáveis de ambiente, estão corretamente definidas para o ambiente em que você está trabalhando.
 
-
-### Uso do Postman para a rota `NewRule`
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+## Uso do Postman para a rota `NewRule`
 
 1. Abra o Postman.
 
@@ -127,7 +164,7 @@ O Postman enviará a solicitação para o seu servidor. Certifique-se de que o s
 
 Você pode seguir um processo semelhante para testar outras rotas, como `List` e `UpdateRule`, e adaptar os métodos e URLs conforme necessário. O processo no Insomnia é bastante semelhante, permitindo que você crie e teste solicitações da mesma forma.
 
-
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 #Autor
 
 ### Emanuel Leffa Backend (https://github.com/EmanoelMittmann/ExpertSysApi)

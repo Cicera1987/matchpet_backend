@@ -112,14 +112,36 @@ ________________________________________________________________________________
 6. Após a configuração e migração do Prisma, você pode iniciar o servidor do projeto:
 
    ```bash
-   npm run start
+   npm start
    ```
 
 Isso deve configurar e iniciar o projeto, permitindo que você comece a usar o sistema especialista de adoção de animais.
 
 Certifique-se de que todas as etapas anteriores foram concluídas com sucesso e de que todas as configurações, como as variáveis de ambiente, estão corretamente definidas para o ambiente em que você está trabalhando.
 
+matchpet_backend
+
+## Configuração do Arquivo .env
+
+Antes de executar o projeto, é importante configurar o arquivo `.env` com as variáveis de ambiente necessárias. Certifique-se de que o arquivo `.env` esteja presente no diretório raiz do projeto e inclua as seguintes configurações:
+
+- `DATABASE_URL`: A URL de conexão ao banco de dados. Você deve configurá-la para apontar para o PostgreSQL que você configurou.
+- Outras variáveis de ambiente necessárias para a configuração do projeto.
+
+Aqui está um exemplo de como o conteúdo do arquivo `.env` pode ser configurado:
+
+```env
+DATABASE_URL=postgresql://postgres:mysecretpassword@localhost:5432/nome_do_banco_de_dados
+PORT= `exemplo:3333`
+```
+
+Certifique-se de substituir `nome_do_banco_de_dados` pelo nome do banco de dados que você deseja usar. (matchpet_backend)
+
+Após configurar o arquivo `.env`, você pode continuar com a instalação e execução do projeto conforme as etapas mencionadas no README.
+```
+
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 ## Uso do Postman para a rota `NewRule`
 
 1. Abra o Postman.

@@ -121,6 +121,7 @@ Certifique-se de que todas as etapas anteriores foram concluídas com sucesso e 
 
 matchpet_backend
 
+___________________________________________________________________________________________________________________
 ## Configuração do Arquivo .env
 
 Antes de executar o projeto, é importante configurar o arquivo `.env` com as variáveis de ambiente necessárias. Certifique-se de que o arquivo `.env` esteja presente no diretório raiz do projeto e inclua as seguintes configurações:
@@ -138,11 +139,14 @@ PORT= `Valor` -  "Exemplo: PORT:3333"
 Certifique-se de substituir `nome_do_banco_de_dados` pelo nome do banco de dados que você deseja usar. (matchpet_backend)
 
 Após configurar o arquivo `.env`, você pode continuar com a instalação e execução do projeto conforme as etapas mencionadas no README.
-```
 
 ___________________________________________________________________________________________________________________
 
+
 ## Uso do Postman para a rota `NewRule`✔
+
+Instale o Postman: Se você ainda não tiver o Postman instalado, faça o download e instale a partir do site oficial.
+https://www.postman.com/
 
 1. Abra o Postman.
 
@@ -190,8 +194,8 @@ ________________________________________________________________________________
 
 # Autor
 
-### Emanuel Leffa - Projeto original Backend (ExpertSysApi) (https://github.com/EmanoelMittmann/ExpertSysApi)
-### Cicera Ribeiro - Projeto original Frontend (https://github.com/Cicera1987/matchpet.git)
+#### Emanuel Leffa - Projeto original Backend (ExpertSysApi) (https://github.com/EmanoelMittmann/ExpertSysApi)
+#### Cicera Ribeiro - Projeto original Frontend (https://github.com/Cicera1987/matchpet.git)
 
 
 ___________________________________________________________________________________________________________________

@@ -1,7 +1,7 @@
 # matchpet_backend
 
 
-Descrição
+### Descrição
 Projeto desenvolvido usando  Sistema Especialista para ajudar na escola de animal de estimação
 
 Você pode listar os pré-requisitos necessários para rodar o projeto, incluindo as versões específicas dos softwares e ferramentas da seguinte forma:
@@ -35,7 +35,7 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e serviços ins
 Certifique-se de que todas essas ferramentas e serviços estejam devidamente configurados em sua máquina antes de prosseguir com a configuração e instalação do projeto.
 
 
-A configuração do projeto pode ser feita da seguinte forma:
+### A configuração do projeto pode ser feita da seguinte forma:
 
 1. Clone o projeto do repositório:
 
@@ -130,7 +130,8 @@ Você pode seguir um processo semelhante para testar outras rotas, como `List` e
 
 #Autor
 
-##Emanuel Leffa Backend (https://github.com/EmanoelMittmann/ExpertSysApi)  e Cicera Ribeiro no frontend (https://github.com/Cicera1987/matchpet.git)
+### Emanuel Leffa Backend (https://github.com/EmanoelMittmann/ExpertSysApi)
+### Cicera Ribeiro no frontend (https://github.com/Cicera1987/matchpet.git)
 
 
 Agradecimentos

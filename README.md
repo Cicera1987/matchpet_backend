@@ -27,7 +27,7 @@ instalar o TypeScript globalmente com o seguinte comando:
   npm install -g typescript
   ```
 ___________________________________________________________________________________________________________
-## Exemplos de como criar seu conteiner Docker
+## Exemplos de como criar seu container Docker
 
 ### Criando um Container (Exemplo 01)
 

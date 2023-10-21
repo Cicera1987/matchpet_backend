@@ -59,7 +59,7 @@ Certifique-se de que o Docker Desktop esteja em execução na sua máquina antes
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 
-## Criando um conteiner
+## Criando um Container
 
 ## Sistema de gerenciamento de banco de dados relacional 
 

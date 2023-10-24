@@ -1,14 +1,15 @@
-import {Request, Response} from 'express'
+import { Request, Response } from 'express'
 import { prisma } from '../repository/instance'
 
 export class RulesController {
 
-    public async List(req: Request, res: Response){
-        const {page, limit} = req.query
+    public async List(req: Request, res: Response) {
+        const { page, limit } = req.query
         try {
             const payload = await prisma.rules.findMany({
                 select: {
                     name: true,
+                    id: true,
                     Condition: true
                 },
                 take: Number(limit),
@@ -21,8 +22,8 @@ export class RulesController {
         }
     }
 
-    public async NewRule(req: Request, res: Response){
-        const {name, Condition} = req.body
+    public async NewRule(req: Request, res: Response) {
+        const { name, Condition } = req.body
 
         try {
             const addRule = prisma.rules.create({
@@ -43,12 +44,12 @@ export class RulesController {
         }
     }
 
-    public async UpdateRule({body,params}: Request, res: Response){
-        const { idRule ,name, Condition} = body
-        const {id} = params
+    public async UpdateRule({ body, params }: Request, res: Response) {
+        const { idRule, name, Condition } = body
+        const { id } = params
         const numberID = Number(id)
-        
-        try{
+
+        try {
             await prisma.rules.update({
                 where: {
                     id: numberID
@@ -58,16 +59,16 @@ export class RulesController {
                     name: name
                 }
             })
- 
-            for(var i = 0; i < Condition.length; i++) {
+
+            for (var i = 0; i < Condition.length; i++) {
                 await prisma.condition.updateMany({
-                    where: { id_rule: numberID, id: Condition[i].id}, 
+                    where: { id_rule: numberID, id: Condition[i].id },
                     data: Condition[i]
                 })
             }
 
             res.send('Rule updated')
-        }catch(error){
+        } catch (error) {
             console.log("error: ", error);
             res.send(error)
         }
